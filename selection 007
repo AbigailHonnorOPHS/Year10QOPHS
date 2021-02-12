@@ -1,0 +1,11 @@
+
+number = int(input("enter a number >>>> "))
+
+if number < 10:
+    print("too low")
+
+elif number > 10 and number < 20:
+    print("correct")
+
+else:
+    print("too high you crazy pie @-@")
