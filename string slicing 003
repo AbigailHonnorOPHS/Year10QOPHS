@@ -1,0 +1,5 @@
+firstname = str(input("enter your name in lowercase >>>> "))
+
+lastname = str(input("enter your last name in lowercase >>>> "))
+
+print(firstname + lastname)
