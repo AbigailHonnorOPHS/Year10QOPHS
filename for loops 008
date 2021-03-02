@@ -1,0 +1,16 @@
+direction = str(input("do you want to count up or down? >>>>> ")).lower()
+
+if direction == "up":
+    topnum = int(input("what do you want to count up to? >>>> "))
+
+    for i in range(1,topnum,1):
+        print(i)
+
+elif direction == "down":
+    num = int(input("enter a number below 20 >>>> "))
+
+    for i in range(20,num,-1):
+        print(i)
+    
+else:
+    print("i dont understand")
