@@ -1,0 +1,7 @@
+firstname = str(input("enter your first name >>> "))
+firstletter = firstname[0:1]
+
+if firstletter == "a" or firstletter == "e" or firstletter == "i" or firstletter == "o" or firstletter == "u":
+    rest = firstname[1:]
+    print(rest)
+
