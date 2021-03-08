@@ -1,0 +1,12 @@
+
+newmember = str(input("are you a new member? y/n >>>>> "))
+loop = 0
+
+while newmember == "y":
+    
+    loop = loop + 1
+    stringedloop = str(loop)
+    name = str(input("what is your last name? >>>> "))
+    firstthreeletters = name[0:3]
+
+    print(firstthreeletters + stringedloop)
