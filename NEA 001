@@ -1,0 +1,37 @@
+data = "y"
+
+while data == "y":
+
+    print("leaugue registration")
+
+    firstname = input("first name:")
+    lastname = input("last name: ")
+    nickname = input("nickanme: ")
+    emailadress = input("email: ")
+
+    skilllev = input("enter a skill level E for expert C for casual >>>> ").upper()
+
+    if skilllev == "E":
+        print(firstname)
+        print(lastname)
+        print(nickname)
+        print(emailadress)
+        print("expert")
+
+        correct = input("are these details correct? y or n >>> ")
+
+        if correct == "y":
+                data = "n"
+            
+
+    if skilllev == "C":
+        print(firstname)
+        print(lastname)
+        print(nickname)
+        print(emailadress)
+        print("casual")
+
+        correct = input("are these details correct? y or n >>> ")
+
+        if correct == "y":
+                data = "n"
