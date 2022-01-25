@@ -1,0 +1,30 @@
+def minecraft():
+    print("creative")
+    print("survival")
+    print("hardcore")
+    print("adventure")
+    print("exit")
+
+    yes = int(input("what option? 1, 2, 3, 4 or 5? ---> "))
+
+    if yes == 1:
+        print("creative chosen")
+
+    elif yes == 2:
+        print("survival chosen")
+
+    elif yes == 3:
+        print("hardcore chosen")
+
+    elif yes == 4:
+        print("adventure chosen")
+
+    elif yes == 5:
+        print("exiting...")
+
+    else:
+        print("invalid choice, try again")
+        minecraft()
+
+
+minecraft()
