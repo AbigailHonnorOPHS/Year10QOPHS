@@ -1,0 +1,29 @@
+def sperogame():
+    print("think bih")
+    print("think boogie")
+    print("think genus")
+    print("material gworl")
+    print("bye smelly cheese")
+
+    ruamaterialgworl = int(input("1,2,3,4, or 5? --- > "))
+
+    if ruamaterialgworl >= 6:
+        print("invalid material gworl detected.")
+        sperogame()
+
+    elif ruamaterialgworl == 1:
+        print("think bih selected")
+
+    elif ruamaterialgworl == 2:
+        print("think boogie selected")
+
+    elif ruamaterialgworl == 3:
+        print("think genus selected")
+
+    elif ruamaterialgworl == 4:
+        print("material gworl selected")
+
+    elif ruamaterialgworl == 5:
+        print("BYE SMELLY CHEEE")
+
+sperogame()
