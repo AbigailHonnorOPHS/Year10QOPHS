@@ -1,0 +1,7 @@
+def Fifa47():
+    print("your options are:")
+    print("career mode")
+    print("tournement mode")
+    print("online seasons")
+
+Fifa47()
