@@ -1,0 +1,8 @@
+def cod():
+    print("domination")
+    print("team deathmatch")
+    print("headquaters")
+
+    option= int(input("what mode? 1, 2 or 3 --> "))
+
+cod()
