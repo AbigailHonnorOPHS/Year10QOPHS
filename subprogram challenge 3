@@ -1,0 +1,21 @@
+def mariokart():
+    print("player 1")
+    print("player 2")
+    print("online")
+    print("exit")
+
+    choose= int(input("what option? 1, 2, 3 or 4? ---> "))
+
+    if choose == 1:
+        print("playerr 1 selected")
+
+    elif choose == 2:
+        print("player 2 selected")
+
+    elif choose == 3:
+        print("online selected")
+
+    elif choose == 4:
+        print("exiting....goodbye friend :)")
+
+mariokart()
