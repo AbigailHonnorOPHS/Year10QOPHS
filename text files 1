@@ -1,0 +1,17 @@
+
+opening = open("numbers.txt","w")
+
+numbers1 = input("input a number to your liking! >>>> ")
+numbers2 = input("input a number to your liking! >>>> ")
+numbers3 = input("input a number to your liking! >>>> ")
+numbers4 = input("input a number to your liking! >>>> ")
+numbers5 = input("input a number to your liking! >>>> ")
+
+opening.write(numbers1)
+opening.write(numbers2)
+opening.write(numbers3)
+opening.write(numbers4)
+opening.write(numbers5)
+
+opening.close()
+print("\nGo and open numbers.txt")
