@@ -1,0 +1,8 @@
+file = open("names.txt","w")
+
+names = ("victory\naslan\nclover\nsoul\nroberto")
+
+file.write(names)
+file.close()
+
+print("go and open names.txt")
