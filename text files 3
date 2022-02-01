@@ -1,0 +1,5 @@
+reading = open("names.txt","r")
+
+print(reading.read())
+
+reading.close()
