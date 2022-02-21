@@ -1,0 +1,8 @@
+EmptyArray = [["a" for column in range(5)] for row in range(2)]
+print(EmptyArray)
+
+int1 = int(input("how many times should it display once? >>> "))
+int2 = int(input("how many times should it display AGAIN? >>> "))
+
+EmptyArray = [[ "a" for column in range(int1)] for row in range(int2)]
+print(EmptyArray)
