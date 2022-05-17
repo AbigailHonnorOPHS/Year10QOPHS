@@ -1,0 +1,23 @@
+
+def menu():
+    
+    print("1. enter the results")
+    print("2. view the current winner")
+    print("3. output the scores")
+
+    choice = int(input("enter your choice >>>> "))
+
+    if choice == 1:
+        gameResult()
+
+    elif choice == 2:
+        winner()
+
+    elif choice == 3:
+        outputAll()
+
+    else:
+        print("invalid")
+        menu()
+
+menu()
